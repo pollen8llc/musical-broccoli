@@ -25,7 +25,7 @@ def fetch_events():
 
     return all_events
 
-def save_to_csv(events, filename="events.csv"):
+def save_to_csv(events, filename="luma-events.csv"):
     if not events:
         print("No event data found.")
         return
