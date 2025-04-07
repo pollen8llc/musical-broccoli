@@ -1,0 +1,832 @@
+[
+    {
+        "name": "World Health Day: Mat to Mindfulness with Flow Grounds",
+        "start_time": "2025-04-07T13:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+        "hosts": [
+            "Derek Kastner- Fabrik Community Director",
+            "Pauline Leung"
+        ]
+    },
+    {
+        "name": "Cobble Hill: Mysha x Maman Monday",
+        "start_time": "2025-04-07T13:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 14,
+        "address": "maman, 154 Court St, Brooklyn, NY 11201, USA",
+        "hosts": [
+            "Mysha"
+        ]
+    },
+    {
+        "name": "Tech Venture Showcase",
+        "start_time": "2025-04-07T16:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 238,
+        "address": "Columbia Business School, David Geffen Hall, 645 W 130th St, New York, NY 10027, USA",
+        "hosts": [
+            "Lang Center"
+        ]
+    },
+    {
+        "name": "Gen AI Built on Bedrock NYC",
+        "start_time": "2025-04-07T21:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 250,
+        "address": "Amazon JFK27 - Hank, 12 W 39th St, New York, NY 10018, USA",
+        "hosts": [
+            "Nate Repensky"
+        ]
+    },
+    {
+        "name": "Unicorner Presents: NYC Seed+ Founder Dinner",
+        "start_time": "2025-04-07T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Unicorner Team",
+            "Charlie Stephens"
+        ]
+    },
+    {
+        "name": "NYC B2B: Pre-Seed + Seed Founders & Investors Meetup",
+        "start_time": "2025-04-07T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 279,
+        "address": null,
+        "hosts": [
+            "Manan Modi"
+        ]
+    },
+    {
+        "name": "Variant Builder Day: Protocol Security with Blockaid, Anchorage & Spearbit",
+        "start_time": "2025-04-08T21:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Variant",
+            "Alana Levin"
+        ]
+    },
+    {
+        "name": "AI & The Culture",
+        "start_time": "2025-04-08T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 47,
+        "address": "Dow Jones & Co Inc, 1211 6th Ave, New York, NY 10036, USA",
+        "hosts": [
+            "Willonius",
+            "Shirley Williams"
+        ]
+    },
+    {
+        "name": "Scaling Engineering Organizations",
+        "start_time": "2025-04-08T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 246,
+        "address": "4 World Trade Center, 150 Greenwich St, New York, NY 10007, USA",
+        "hosts": [
+            "Benjamin You",
+            "Mykola Kurutin",
+            "Siri Kostanyan",
+            null
+        ]
+    },
+    {
+        "name": "DeSciNYC: The Internet Of Dongs Project",
+        "start_time": "2025-04-08T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Michael Fischer"
+        ]
+    },
+    {
+        "name": "make a self care button bouquet :)",
+        "start_time": "2025-04-08T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 7,
+        "address": "Lion's Milk, 104 Roebling St, Brooklyn, NY 11211, USA",
+        "hosts": [
+            "art gurl",
+            "Alyssa Chin"
+        ]
+    },
+    {
+        "name": "Mindful Evenings ✨",
+        "start_time": "2025-04-08T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 30,
+        "address": "Fabrik DUMBO, 20 Jay St Suite 218, Brooklyn, NY 11201, USA",
+        "hosts": [
+            "Shoko Tagaya",
+            "Indra Klavins"
+        ]
+    },
+    {
+        "name": "Connections & Capital NYC Meetup by Fortress & Next Layer Capital",
+        "start_time": "2025-04-08T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 373,
+        "address": "Pubkey, 85 Washington Pl, New York, NY 10011, USA",
+        "hosts": [
+            "Fortress",
+            "Brandon Turp",
+            "Next Layer Capital",
+            "Tucker Kennedy"
+        ]
+    },
+    {
+        "name": "How to Make More Money: A Practical Guide for Freelancers & Small Business Owners",
+        "start_time": "2025-04-08T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 50,
+        "address": "Index, 120 Walker St 3rd Floor, New York, NY 10013, USA",
+        "hosts": [
+            "Index"
+        ]
+    },
+    {
+        "name": "Opportunities in the Next Evolution of the Domain Name System",
+        "start_time": "2025-04-09T21:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 47,
+        "address": "Civic Hall, 124 E 14th St, New York, NY 10003, USA",
+        "hosts": [
+            "Civic Hall"
+        ]
+    },
+    {
+        "name": "ArtificialRuby.ai NYC Meetup",
+        "start_time": "2025-04-09T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Betaworks, 29 Little W 12th St, New York, NY 10014, USA",
+        "hosts": [
+            "Rachel Price Sitman",
+            "Scott Werner",
+            "Betaworks"
+        ]
+    },
+    {
+        "name": "Book Talk with Investor, Professor, and Author Jeff Bussgang in Conversation with Bloomberg Journalist Walter Frick",
+        "start_time": "2025-04-09T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 334,
+        "address": "Lowenstein Sandler LLP, 1251 Avenue of the Americas, New York, NY 10020, USA",
+        "hosts": [
+            "Cherae Robinson",
+            "Jessica Buss"
+        ]
+    },
+    {
+        "name": "Navigating the new design environment with Catt Small, Rachel Hsiung, and Jibran Kutik (Fundraiser)",
+        "start_time": "2025-04-09T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Etsy, 117 Adams St, Brooklyn, NY 11201, USA",
+        "hosts": [
+            "Designer Friends"
+        ]
+    },
+    {
+        "name": "NYC 🗽 GenAI Companies Building in NYC (Hosted by The AI Furnace)",
+        "start_time": "2025-04-09T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 189,
+        "address": null,
+        "hosts": [
+            "Angela Mascarenas (The AI Furnace 🧨🔥)",
+            "Heidi Kim",
+            "Jeffrey Hang",
+            "Hamza Zaveri (The AI Furnace)"
+        ]
+    },
+    {
+        "name": "StoryTell x Queering Existentialism 4/9: Radical Acceptance",
+        "start_time": "2025-04-09T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 23,
+        "address": null,
+        "hosts": [
+            "StoryTell",
+            "queering existentialism",
+            "Chris Bullard"
+        ]
+    },
+    {
+        "name": "Color in Flow: Freeform",
+        "start_time": "2025-04-09T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Drawing Room, 247 W 30th St # 9R, New York, NY 10001, USA",
+        "hosts": [
+            "Drawing Room",
+            "Meiying"
+        ]
+    },
+    {
+        "name": "Pitch and Run 730am Thursday Early Bird",
+        "start_time": "2025-04-10T11:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 362,
+        "address": "Le Pain Quotidien, 395 S End Ave, New York, NY 10280, USA",
+        "hosts": [
+            "Kevin Weatherman",
+            "Chaitenya Razdan"
+        ]
+    },
+    {
+        "name": "🥯+🤖 AI Bagels Biotech Edition (with Bits in Bio and Dimension)",
+        "start_time": "2025-04-10T13:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 52,
+        "address": null,
+        "hosts": [
+            "Jacob Portes",
+            "Reha Mathur",
+            "Matt Stergiou"
+        ]
+    },
+    {
+        "name": "Entrepreneurship in the Era of GLP-1s and Food as Medicine",
+        "start_time": "2025-04-10T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 146,
+        "address": "Columbia Business School, David Geffen Hall, 645 W 130th St, New York, NY 10027, USA",
+        "hosts": [
+            "Kosha Rakholia"
+        ]
+    },
+    {
+        "name": "\"Finding PMF in the Age of AI\" with Jeff Bussgang (Flybridge Capital Partners)",
+        "start_time": "2025-04-10T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 160,
+        "address": null,
+        "hosts": [
+            "Andrew Yeung",
+            "Jeff Bussgang",
+            "Verci"
+        ]
+    },
+    {
+        "name": "Fun (SPC Demo Night)",
+        "start_time": "2025-04-10T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "South Park Commons",
+            "Gopal Raman"
+        ]
+    },
+    {
+        "name": "Symbol XO - Traditional Dating",
+        "start_time": "2025-04-10T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 37,
+        "address": "Sugar mouse, 47 3rd Ave, New York, NY 10003, USA",
+        "hosts": [
+            "William Li",
+            "Janice"
+        ]
+    },
+    {
+        "name": "Tech Pickleball NYC",
+        "start_time": "2025-04-11T11:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 1118,
+        "address": "McCarren Park Tennis Courts, 50 Bedford Ave, Brooklyn, NY 11222, USA",
+        "hosts": [
+            "John DiLoreto",
+            "Skyler Birk-Stachon",
+            "Optemization"
+        ]
+    },
+    {
+        "name": "Pitch and Run Friday - The Original PNR",
+        "start_time": "2025-04-11T12:55:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 269,
+        "address": "Bluestone Lane Chelsea Piers Café, 62 Chelsea Piers Pier 62, New York, NY 10011, USA",
+        "hosts": [
+            "Kevin Weatherman"
+        ]
+    },
+    {
+        "name": "MCP Research & Discussion Night",
+        "start_time": "2025-04-11T21:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 72,
+        "address": null,
+        "hosts": [
+            "Neel Baronia",
+            "Apurva Chitnis",
+            "Amelia Steinmetz"
+        ]
+    },
+    {
+        "name": "Founders Night at Seven24 Collective",
+        "start_time": "2025-04-11T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 89,
+        "address": "Seven24 Collective - Meatpacking NYC, 362 W 13th St, New York, NY 10014, USA",
+        "hosts": [
+            "Remington Davenport",
+            "Ali"
+        ]
+    },
+    {
+        "name": "Charm Meet",
+        "start_time": "2025-04-11T23:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Drawing Room, 247 W 30th St # 9R, New York, NY 10001, USA",
+        "hosts": [
+            "Drawing Room",
+            "Erin O’Connor"
+        ]
+    },
+    {
+        "name": "L&L Monthly Classic Vol. 3",
+        "start_time": "2025-04-12T00:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 11,
+        "address": "Cary Leeds Center for Tennis & Learning, 1720 Crotona Ave, Bronx, NY 10457, USA",
+        "hosts": [
+            "Khari",
+            "Michael "
+        ]
+    },
+    {
+        "name": "mo.na. x coach 🌟☁️",
+        "start_time": "2025-04-12T17:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 32,
+        "address": "Bloomingdale's, 1000 Third Avenue, 59th Street and, Lexington Ave, New York, NY 10022, USA",
+        "hosts": [
+            "Mecca McDonald"
+        ]
+    },
+    {
+        "name": "Bloom in Color: Paint pot + Plant buddy",
+        "start_time": "2025-04-12T18:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 12,
+        "address": "117 Grattan St, Brooklyn, NY 11237, USA",
+        "hosts": [
+            "Mojo HQ"
+        ]
+    },
+    {
+        "name": "Let's Go Climbing (Bouldering Class)",
+        "start_time": "2025-04-12T18:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 17,
+        "address": "Bouldering Project - Gowanus, 575 Degraw St, Brooklyn, NY 11217, USA",
+        "hosts": [
+            "Sahara Moné",
+            "anah"
+        ]
+    },
+    {
+        "name": "Index Open Studio Hours",
+        "start_time": "2025-04-13T16:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 16,
+        "address": "Index, 120 Walker St 3rd Floor, New York, NY 10013, USA",
+        "hosts": [
+            "Index"
+        ]
+    },
+    {
+        "name": "Saving Grace: A Play",
+        "start_time": "2025-04-13T19:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 20,
+        "address": "Greenpoint, Brooklyn, NY, USA",
+        "hosts": [
+            "Jenita Richards"
+        ]
+    },
+    {
+        "name": "南京方言角+泡泡馄饨工作坊",
+        "start_time": "2025-04-13T20:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 20,
+        "address": "Accent Sisters 重音社, 89 5th Ave #702, New York, NY 10002, USA",
+        "hosts": [
+            "Accent Accent"
+        ]
+    },
+    {
+        "name": "Assemblage Creations: Embellish an iPhone Case with Mixed Media Materials",
+        "start_time": "2025-04-14T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 8,
+        "address": "119 N 1st St, Brooklyn, NY 11249, USA",
+        "hosts": [
+            "craftnook"
+        ]
+    },
+    {
+        "name": "NYC June Primary Bootcamp Launch Party 🎉",
+        "start_time": "2025-04-14T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 55,
+        "address": "Finback Brooklyn, 545 President St, Brooklyn, NY 11215, USA",
+        "hosts": [
+            "Sachi Takahashi-Rial"
+        ]
+    },
+    {
+        "name": "Think Tech: Tools for Meeting Building Decarb Targets",
+        "start_time": "2025-04-15T21:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Contech Alliance"
+        ]
+    },
+    {
+        "name": "Creator Economy NYC Mixer & Panel: Talking Creator Tools",
+        "start_time": "2025-04-15T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Brett Dashevsky"
+        ]
+    },
+    {
+        "name": "Animation Nights New York (ANNY) at The Gutter Spare Room!",
+        "start_time": "2025-04-16T00:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Animation Nights"
+        ]
+    },
+    {
+        "name": "NYC Tech Breakfast Club April",
+        "start_time": "2025-04-16T12:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Tech Breakfast Club",
+            "Ariana Song"
+        ]
+    },
+    {
+        "name": "Creative Women Entrepreneurs x Gather: Happy Hour for Women Freelancers",
+        "start_time": "2025-04-16T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 48,
+        "address": null,
+        "hosts": [
+            "Sam Popp",
+            "Rudy Blanco"
+        ]
+    },
+    {
+        "name": "La French Tech NYC - Afterwork",
+        "start_time": "2025-04-16T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 40,
+        "address": null,
+        "hosts": [
+            "Kimiya Shams",
+            "Crystelle Desnoyer",
+            "Benjamin Fabre",
+            "Caroline Faucher Winter",
+            "La French Tech New York"
+        ]
+    },
+    {
+        "name": "Bookbinding: Signature Stitch",
+        "start_time": "2025-04-16T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Drawing Room, 247 W 30th St # 9R, New York, NY 10001, USA",
+        "hosts": [
+            "Drawing Room",
+            "Ray Hwang"
+        ]
+    },
+    {
+        "name": "Founders Basketball",
+        "start_time": "2025-04-16T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 25,
+        "address": "Basketball City, 299 South Street Pier 36, Pier 36 NYC, 299 South St, New York, NY 10002, USA",
+        "hosts": [
+            "New Edition"
+        ]
+    },
+    {
+        "name": "The Carry Takes NYC: Join Us for Our Second Rucking Meetup!",
+        "start_time": "2025-04-17T20:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 15,
+        "address": "Pier 57, 25 11th Ave, New York, NY 10011, USA",
+        "hosts": [
+            "Carry Team",
+            "Cortney Bigelow",
+            "Esther Sedgwick"
+        ]
+    },
+    {
+        "name": "Navigating AI in Women's Healthcare: Insights from VC & Founders",
+        "start_time": "2025-04-17T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Marion - La Creme de la STEM ™",
+            "Natalie Neptune",
+            "Kosha Rakholia",
+            "Derek Kastner- Fabrik Community Director"
+        ]
+    },
+    {
+        "name": "UX Engineering Meetup: NYC (April)",
+        "start_time": "2025-04-17T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 88,
+        "address": "450 W 33rd St fl 11, New York, NY 10001, USA",
+        "hosts": [
+            "Claire"
+        ]
+    },
+    {
+        "name": "105th NY Hardware Meetup @ Viam",
+        "start_time": "2025-04-17T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 178,
+        "address": "1900 Broadway, New York, NY 10023, USA",
+        "hosts": [
+            "Anthony Dzaba",
+            "Paul Vizzio"
+        ]
+    },
+    {
+        "name": "Product Builders in Health and Wellness Tech Happy Hour [NYC]",
+        "start_time": "2025-04-17T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 102,
+        "address": null,
+        "hosts": [
+            "Haris Jaliawala"
+        ]
+    },
+    {
+        "name": "Alo Soho: Alo RUNNERs Club",
+        "start_time": "2025-04-19T13:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Alo, 96 Spring St, New York, NY 10012, USA",
+        "hosts": [
+            "Alo Yoga",
+            "ceren"
+        ]
+    },
+    {
+        "name": "LeRobot Arm Hackathon NYC",
+        "start_time": "2025-04-19T15:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 80,
+        "address": "Betaworks, 29 Little W 12th St, New York, NY 10014, USA",
+        "hosts": [
+            "Krish Shah",
+            "Nicole Ripka",
+            "Krish Mehta",
+            "Alex Marley",
+            "Brannon Jones",
+            "Betaworks",
+            "DT"
+        ]
+    },
+    {
+        "name": "Easter Potluck Brunch",
+        "start_time": "2025-04-20T17:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 17,
+        "address": "2839 42nd St, Long Island City, NY 11103, USA",
+        "hosts": [
+            "Food Joy Club"
+        ]
+    },
+    {
+        "name": "Flipping the Script On Investors: Reverse Pitches for NY Fintech Week Produced by RevTech Labs",
+        "start_time": "2025-04-21T17:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 69,
+        "address": null,
+        "hosts": [
+            "Kasie Jackson",
+            "Empire Startups",
+            "Shannon Perry",
+            "Sarah Yates"
+        ]
+    },
+    {
+        "name": "Computer Vision with CNNs",
+        "start_time": "2025-04-21T18:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 12,
+        "address": "1 Pace Plaza, New York, NY 10038, USA",
+        "hosts": [
+            "Tejomay Kapadia",
+            "Watson Blair",
+            "Roshan N Kalpavruksha"
+        ]
+    },
+    {
+        "name": "NYC B2B: FinTech Founders & Operators Meetup",
+        "start_time": "2025-04-21T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 238,
+        "address": null,
+        "hosts": [
+            "Manan Modi",
+            "Empire Startups"
+        ]
+    },
+    {
+        "name": "Poetry Night in Dreamworld w/ The Poetry Society of New York",
+        "start_time": "2025-04-21T22:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 6,
+        "address": "119 N 1st St, Brooklyn, NY 11249, USA",
+        "hosts": [
+            "craftnook"
+        ]
+    },
+    {
+        "name": "\"Identity in the Age of AI\" Panel",
+        "start_time": "2025-04-22T13:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "Morrison & Foerster LLP, 250 W 55th St, New York, NY 10019, USA",
+        "hosts": [
+            "Mat Kaliski",
+            "Empire Startups"
+        ]
+    },
+    {
+        "name": "For the Firsts: April Meetup",
+        "start_time": "2025-04-22T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "Colin Rocker"
+        ]
+    },
+    {
+        "name": "Startup Lean Coffee",
+        "start_time": "2025-04-23T13:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 60,
+        "address": "Foley Hoag LLP, 1301 6th Ave, New York, NY 10019, USA",
+        "hosts": [
+            "Geoff Scott"
+        ]
+    },
+    {
+        "name": "Fintech Is Femme Leadership Summit 2025",
+        "start_time": "2025-04-23T16:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": "The Times Center, 242 W 41st St, New York, NY 10036, USA",
+        "hosts": [
+            "Nicole Casperson",
+            "Empire Startups"
+        ]
+    },
+    {
+        "name": "Attention in the Age of AI with Gary Vaynerchuk",
+        "start_time": "2025-04-23T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 0,
+        "address": null,
+        "hosts": [
+            "South Park Commons",
+            "Dylan Itzikowitz"
+        ]
+    },
+    {
+        "name": "The Spark Society Book Club: \"The Motherload\" with Sarah Hoover",
+        "start_time": "2025-04-23T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 27,
+        "address": null,
+        "hosts": [
+            "Leah Wiseman Fink",
+            "Nikki Mendell"
+        ]
+    },
+    {
+        "name": "Writers Club New York Spring Mixer!",
+        "start_time": "2025-04-23T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 42,
+        "address": "Ace Hotel Brooklyn, 252 Schermerhorn St, Brooklyn, NY 11217, USA",
+        "hosts": [
+            "Writers Club"
+        ]
+    },
+    {
+        "name": "Founder Debate Night By Antler & Satori",
+        "start_time": "2025-04-24T21:30:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 22,
+        "address": "123 Allen St, New York, NY 10002, USA",
+        "hosts": [
+            "Kyle Ferguson",
+            "Kaila J. Lim",
+            "Jake Bernstein"
+        ]
+    },
+    {
+        "name": "Gen Z NYC Founder & Creator Mixer",
+        "start_time": "2025-04-24T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 76,
+        "address": "109 3rd Ave, New York, NY 10003, USA",
+        "hosts": [
+            "Natalie Neptune"
+        ]
+    },
+    {
+        "name": "Sound Hallucinations",
+        "start_time": "2025-04-27T21:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 24,
+        "address": "301 Ten Eyck St, Brooklyn, NY 11206, USA",
+        "hosts": [
+            "Nima Gardideh"
+        ]
+    },
+    {
+        "name": "Little Bar Mocktail Happy Hour",
+        "start_time": "2025-04-29T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 13,
+        "address": "Little Bar, 1401 Hudson St, Hoboken, NJ 07030, USA",
+        "hosts": [
+            "Annie Ferro"
+        ]
+    },
+    {
+        "name": "Open House: An Arts & Faith Series",
+        "start_time": "2025-04-29T22:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 33,
+        "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+        "hosts": [
+            "Ravahn Rodriguez"
+        ]
+    },
+    {
+        "name": "book•ish report: a *new visions* book club powerpoint party",
+        "start_time": "2025-04-29T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 7,
+        "address": "Black Gotham Experience, 192 Front St, New York, NY 10038, USA",
+        "hosts": [
+            "boonoonoonoos & co"
+        ]
+    },
+    {
+        "name": "Making a Meet Cute: Offline Dating Strategies from Experts",
+        "start_time": "2025-04-29T23:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 34,
+        "address": "Fabrik DUMBO, 20 Jay St Suite 218, Brooklyn, NY 11201, USA",
+        "hosts": [
+            "Met Through Friends",
+            "Stevie Bowen",
+            "Beyond Nice"
+        ]
+    },
+    {
+        "name": "Haus of Nouns – NYC – 1",
+        "start_time": "2025-05-01T14:00:00.000Z",
+        "timezone": "America/New_York",
+        "guest_count": 28,
+        "address": "Midtown Manhattan, New York, NY, USA",
+        "hosts": [
+            "Benjamin Latsko"
+        ]
+    }
+]
