@@ -1,45 +1,51 @@
 import requests
+import json
 import csv
 
-def fetch_events():
-    url = "https://api.lu.ma/discover/get-paginated-events"
-    params = {
-        "discover_place_api_id": "discplace-Izx1rQVSh8njYpP",
-        "pagination_cursor": ""
-    }
+all_events_list = []
 
-    all_events = []
+def deal_with_data():
+    for entry in res_json["entries"]:
+        event_list = {}
+        event_list["name"] = entry["event"]["name"]
+        event_list["start_time"] = entry["event"]["start_at"]
+        event_list["timezone"] = entry["event"]["timezone"]
+        try:
+            event_list["address"] = entry["event"]["geo_address_info"]["full_address"]
+        except:
+            event_list["address"] = None
 
-    while True:
-        response = requests.get(url, params=params)
-        json_data = response.json()
+        event_list["guest_count"] = entry["guest_count"]
 
-        for entry in json_data["entries"]:
-            event_data = entry["event"]
-            all_events.append(event_data)  # Store all event details
+        # Flatten host names into a comma-separated string
+        hosts = [host["name"] for host in entry["hosts"]]
+        event_list["hosts"] = ", ".join(hosts)
 
-        if not json_data.get("has_more", False):
-            break  # Stop if there are no more pages
+        all_events_list.append(event_list)
 
-        params["pagination_cursor"] = json_data["next_cursor"]
 
-    return all_events
+# Paginated URL
+url = "https://api.lu.ma/discover/get-paginated-events"
+params = {
+    "discover_place_api_id": "discplace-Izx1rQVSh8njYpP",
+    "pagination_cursor": ""
+}
 
-def save_to_csv(events, filename="luma-events-csv-generator.csv"):
-    if not events:
-        print("No event data found.")
-        return
+r = requests.get(url, params=params)
+res_json = r.json()
+deal_with_data()
 
-    # Get all possible keys from event data
-    keys = events[0].keys()
+while res_json.get("has_more"):
+    params["pagination_cursor"] = res_json["next_cursor"]
+    r = requests.get(url, params=params)
+    res_json = r.json()
+    deal_with_data()
 
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.DictWriter(file, fieldnames=keys)
-        writer.writeheader()  # Write the header row
-        writer.writerows(events)  # Write all event data
+# Write to CSV
+csv_file = "csv_files/luma-events.csv"
+fieldnames = ["name", "start_time", "timezone", "address", "guest_count", "hosts"]
 
-    print(f"CSV file '{filename}' has been saved successfully.")
-
-# Fetch events and save them to CSV
-events = fetch_events()
-save_to_csv(events)
+with open(csv_file, mode='w', newline='', encoding='utf-8') as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(all_events_list)
