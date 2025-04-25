@@ -2,47 +2,60 @@ import requests
 import json
 import datetime
 import csv
+import os
 
 url = "https://www.supermomos.com/api/getPastSocialsV2"
-
-all_events_list = []
-
-# Paginated URL
 params = {
     "city": "New York",
     "exclusiveStart": ""
 }
 
+all_events_list = []
+
 while True:
     r = requests.get(url, params=params)
+
+    if r.status_code != 200:
+        print(f"Request failed with status code {r.status_code}")
+        break
+
     res_json = r.json()
+
+    if "data" not in res_json or "New York" not in res_json["data"]:
+        print("Missing expected keys in response.")
+        print(res_json)
+        break
 
     events_list = res_json["data"]["New York"]
 
     if not events_list:
-        break  # No more events
+        break
 
     all_events_list.extend(events_list)
 
-    # Convert ISO 8601 string to datetime object
-    last_event_time = datetime.datetime.fromisoformat(events_list[-1]["eventTimestamp"].replace("Z", "+00:00"))
+    try:
+        last_event_time = datetime.datetime.fromisoformat(
+            events_list[-1]["eventTimestamp"].replace("Z", "+00:00")
+        )
+    except Exception as e:
+        print(f"Error parsing date: {e}")
+        break
 
     if last_event_time < datetime.datetime(2025, 4, 16, tzinfo=datetime.timezone.utc):
         break
 
-    # Update pagination key
     last_key = res_json.get("meta", {}).get("lastEvaluatedKey")
     if not last_key:
-        break  # No more pages
+        break
 
     params["exclusiveStart"] = last_key
 
-# Print all fetched events
 print(f"Total events fetched: {len(all_events_list)}")
-for event in all_events_list:
-    print(event)
 
-# Choose fields to include in CSV
+# Save to CSV with timestamp
+os.makedirs("csv_files", exist_ok=True)
+csv_filename = 'csv_files/supermomos-events-' + datetime.datetime.now().strftime('%m-%d-%y') + '.csv'
+
 fieldnames = [
     "title",
     "eventTimestamp",
@@ -52,14 +65,10 @@ fieldnames = [
     "description"
 ]
 
-# Save to CSV file
-with open("supermomos_events.csv", mode="w", newline="", encoding="utf-8") as csvfile:
+with open(csv_filename, mode="w", newline="", encoding="utf-8-sig") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-
     for event in all_events_list:
-        # Write only selected fields, handling missing keys
         writer.writerow({key: event.get(key, "") for key in fieldnames})
 
-print("✅ Events exported to supermomos_events.csv")
-
+print(f"Events exported to {csv_filename}")

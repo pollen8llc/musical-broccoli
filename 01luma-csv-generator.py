@@ -2,30 +2,31 @@ import requests
 import json
 import csv
 import datetime
+import os
 
 all_events_list = []
 
 def deal_with_data():
     for entry in res_json["entries"]:
-        event_list = {}
-        event_list["Event Name"] = entry["event"]["name"]
-        event_list["Start Time"] = entry["event"]["start_at"]
-        event_list["Url"] = "https://lu.ma/" + entry["event"]["url"]
+        event_list = {
+            "Event Name": entry["event"]["name"],
+            "Start Time": entry["event"]["start_at"],
+            "Url": "https://lu.ma/" + entry["event"]["url"],
+            "Guest Count": entry["guest_count"]
+        }
+
         try:
             event_list["Address"] = entry["event"]["geo_address_info"]["full_address"]
         except:
             event_list["Address"] = None
 
-        event_list["Guest Count"] = entry["guest_count"]
-
-        # Flatten host names into a comma-separated string
-        hosts = [host["name"] for host in entry["hosts"]]
         try:
+            hosts = [host["name"] for host in entry["hosts"]]
             event_list["Hosts"] = ", ".join(hosts)
         except TypeError:
-            pass
-        all_events_list.append(event_list)
+            event_list["Hosts"] = None
 
+        all_events_list.append(event_list)
 
 # Paginated URL
 url = "https://api.lu.ma/discover/get-paginated-events"
@@ -44,11 +45,16 @@ while res_json.get("has_more"):
     res_json = r.json()
     deal_with_data()
 
-# Write to CSV
-csv_file = "csv_files/luma-events-" + datetime.datetime.now().strftime('%m-%d-%y')+ ".csv"
-fieldnames = ["Event Name", "Start Time", "Address", "Guest Count", "Hosts","Url"]
+# Create directory if not exists
+os.makedirs("csv_files", exist_ok=True)
 
-with open(csv_file, mode='w', newline='', encoding='utf-8') as f:
+# Save to CSV file with BOM for Excel
+csv_file = "csv_files/luma-events-" + datetime.datetime.now().strftime('%m-%d-%y') + ".csv"
+fieldnames = ["Event Name", "Start Time", "Address", "Guest Count", "Hosts", "Url"]
+
+with open(csv_file, mode='w', newline='', encoding='utf-8-sig') as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(all_events_list)
+
+print(f"Events exported successfully to {csv_file}")
