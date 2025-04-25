@@ -78,7 +78,7 @@ while True:
         break
 
 # Save as CSV
-csv_filename = 'csv_files/meetup-events-' + datetime.datetime.now().strftime('%m-%d-%y') + '.csv'
+csv_filename = "csv_files/" + datetime.datetime.now().strftime('%m-%d-%y') + "-meetup-events.csv"
 with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ["Event Name", "Start Time", "Address", "Guest Count", "Hosts", "Url","Description"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
