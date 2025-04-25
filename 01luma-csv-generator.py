@@ -1,26 +1,29 @@
 import requests
 import json
 import csv
+import datetime
 
 all_events_list = []
 
 def deal_with_data():
     for entry in res_json["entries"]:
         event_list = {}
-        event_list["name"] = entry["event"]["name"]
-        event_list["start_time"] = entry["event"]["start_at"]
-        event_list["timezone"] = entry["event"]["timezone"]
+        event_list["Event Name"] = entry["event"]["name"]
+        event_list["Start Time"] = entry["event"]["start_at"]
+        event_list["Url"] = "https://lu.ma/" + entry["event"]["url"]
         try:
-            event_list["address"] = entry["event"]["geo_address_info"]["full_address"]
+            event_list["Address"] = entry["event"]["geo_address_info"]["full_address"]
         except:
-            event_list["address"] = None
+            event_list["Address"] = None
 
-        event_list["guest_count"] = entry["guest_count"]
+        event_list["Guest Count"] = entry["guest_count"]
 
         # Flatten host names into a comma-separated string
         hosts = [host["name"] for host in entry["hosts"]]
-        event_list["hosts"] = ", ".join(hosts)
-
+        try:
+            event_list["Hosts"] = ", ".join(hosts)
+        except TypeError:
+            pass
         all_events_list.append(event_list)
 
 
@@ -42,8 +45,8 @@ while res_json.get("has_more"):
     deal_with_data()
 
 # Write to CSV
-csv_file = "csv_files/luma-events.csv"
-fieldnames = ["name", "start_time", "timezone", "address", "guest_count", "hosts"]
+csv_file = "csv_files/luma-events-" + datetime.datetime.now().strftime('%m-%d-%y')+ ".csv"
+fieldnames = ["Event Name", "Start Time", "Address", "Guest Count", "Hosts","Url"]
 
 with open(csv_file, mode='w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)

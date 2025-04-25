@@ -82,9 +82,8 @@ res_json = r.json()
 
 # r = requests.request("GET", url, headers=headers, cookies=cookies, params=params)
 # res_json = r.json()
+#print(res_json)
 
-print(res_json)
 
-
-with open('EventBrite-test-NEW.json', 'w', encoding='utf-8') as f:
+with open('EventBrite-events.json', 'w', encoding='utf-8') as f:
     json.dump(res_json, f, ensure_ascii=False, indent=4)

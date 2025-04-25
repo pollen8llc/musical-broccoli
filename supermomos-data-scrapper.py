@@ -61,5 +61,5 @@ with open("supermomos_events.csv", mode="w", newline="", encoding="utf-8") as cs
         # Write only selected fields, handling missing keys
         writer.writerow({key: event.get(key, "") for key in fieldnames})
 
-print("✅ Events exported to supermomos_events.csv")
+print("Events exported to supermomos_events.csv")
 
