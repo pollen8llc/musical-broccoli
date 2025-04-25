@@ -49,7 +49,7 @@ while res_json.get("has_more"):
 os.makedirs("csv_files", exist_ok=True)
 
 # Save to CSV file with BOM for Excel
-csv_file = "csv_files/luma-events-" + datetime.datetime.now().strftime('%m-%d-%y') + ".csv"
+csv_file = "csv_files/" + datetime.datetime.now().strftime('%m-%d-%y') + "-luma-events.csv"
 fieldnames = ["Event Name", "Start Time", "Address", "Guest Count", "Hosts", "Url"]
 
 with open(csv_file, mode='w', newline='', encoding='utf-8-sig') as f:
