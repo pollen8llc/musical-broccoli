@@ -1,5 +1,22 @@
 import requests
-import json
+import csv
+import datetime
+import os
+
+all_events = []
+
+
+def handle_data(events):
+	for event in events:
+		ev = {}
+		ev["Event Name"] = event["name"]
+		ev["Start Time"] = f"{event['start_date']} {event['start_time']}"
+		ev["Address"] = f"{event['primary_venue']['address']['address_1']}, {event['primary_venue']['address']['city']}, {event['primary_venue']['address']['region']}, {event['primary_venue']['address']['country']}"
+		#ev["Guest Count"] =
+		ev["Host"] = event["primary_organizer"]["name"]
+		ev["Url"] = event["url"]
+
+		all_events.append(ev)
 
 url = "https://www.eventbrite.com/api/v3/destination/search/"
 params = {
@@ -67,6 +84,8 @@ body = {
 r = requests.request("POST", url, headers=headers, cookies=cookies, json=body)
 res_json = r.json()
 
+handle_data(res_json["events"]["results"])
+
 # url = "https://www.eventbrite.com/api/v3/destination/events/"
 # params = {
 # 		"event_ids": "New York City Hiring Event",
@@ -85,5 +104,19 @@ res_json = r.json()
 #print(res_json)
 
 
-with open('EventBrite-events.json', 'w', encoding='utf-8') as f:
-    json.dump(res_json, f, ensure_ascii=False, indent=4)
+#with open('EventBrite-events.csv', 'w', newline='', encoding='utf-8') as f:
+#    writer = csv.DictWriter(f, fieldnames=["Event Name", "Start Time", "Address", "Host", "Url"])
+#    writer.writeheader()
+#    writer.writerows(all_events)
+
+
+os.makedirs("csv_files", exist_ok=True)
+
+	# Create the dated filename
+csv_filename = "csv_files/" + datetime.datetime.now().strftime('%m-%d-%y') + "-eventbrite-events.csv"
+
+	# Write the CSV file
+with open(csv_filename, 'w', newline='', encoding='utf-8') as f:
+		writer = csv.DictWriter(f, fieldnames=["Event Name", "Start Time", "Address", "Host", "Url"])
+		writer.writeheader()
+		writer.writerows(all_events)
